@@ -19,7 +19,7 @@ import io.cucumber.junit.CucumberOptions;
 					
 			},
 			strict=true,
-			dryRun=true,
+			dryRun=false,
 			monochrome = true,
 			//@dev,@wip
 		    tags = {"@sanity or @regression"}
