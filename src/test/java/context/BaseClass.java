@@ -3,6 +3,7 @@ package context;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 
+import io.cucumber.java.Scenario;
 import pageObjects.AddcustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
@@ -10,7 +11,7 @@ import pageObjects.SearchCustomerPage;
 
 
 public class BaseClass {
-	
+	private Scenario sk;
 	private WebDriver driver;
 	private LoginPage lp;
 	private AddcustomerPage addCust;
@@ -19,9 +20,17 @@ public class BaseClass {
 	public WebDriver getDriver() {
 		return driver;
 	}
+	
+	public Scenario getScenario() {
+		return sk;
+	}
 
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
+	}
+	
+	public void setScenario(Scenario sg) {
+		this.sk = sg;
 	}
 	
 	public LoginPage getLoginPageObject() {

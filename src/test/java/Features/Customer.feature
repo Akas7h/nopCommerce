@@ -1,3 +1,4 @@
+@Customer
 Feature: Customer
 
 Background: Below are the common steps for each scenario
@@ -11,7 +12,7 @@ Background: Below are the common steps for each scenario
  
  
  
-@sanity 
+@sanity
 Scenario: Add a new customer
    And click on Add new button item
    Then User can view Add a new customer page

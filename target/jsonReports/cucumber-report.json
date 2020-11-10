@@ -1,19 +1,23 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "Below are the common steps for each scenario",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User launch Chrome Browser",
             "match": {
               "location": "stepDefinitions.LoginstepDefs.user_launch_Chrome_Browser()"
@@ -21,10 +25,14 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "Navigated to URL https://admin-demo.nopcommerce.com/login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 2897000000,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
             "match": {
               "arguments": [
@@ -39,9 +47,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 337000000,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters Email as \"admin@yourstore.com\" and password \"admin\"",
             "match": {
               "arguments": [
@@ -60,9 +69,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5121000000,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "click login",
             "match": {
               "location": "stepDefinitions.LoginstepDefs.click_login()"
@@ -70,11 +80,14 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "We are inside DashBoard page"
+            ],
             "result": {
-              "duration": 3000000,
-              "status": "skipped"
+              "duration": 5012000000,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User can view Dashboard page",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_can_view_Dashboard_page()"
@@ -82,10 +95,14 @@
             "keyword": "Then "
           },
           {
+            "output": [
+              "Customer manu is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 5052000000,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User click on customers Menu",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_click_on_customers_Menu()"
@@ -93,10 +110,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Customer manu item is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1037000000,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_customers_menu_item()"
@@ -106,29 +127,36 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T08:41:37.862Z",
+        "start_timestamp": "2020-11-10T19:33:26.237Z",
         "before": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 12950000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.setup()"
+              "location": "stepDefinitions.LoginstepDefs.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 15,
+        "line": 16,
         "name": "Add a new customer",
         "description": "",
         "id": "customer;add-a-new-customer",
         "after": [
           {
+            "output": [
+              "Browser is closed"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 187000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.tearDown()"
+              "location": "stepDefinitions.LoginstepDefs.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -136,10 +164,14 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "Add new button item is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 943000000,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "click on Add new button item",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_Add_new_button_item()"
@@ -147,10 +179,14 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "Entered inside Add a new customer page"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 6000000,
+              "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "User can view Add a new customer page",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_can_view_Add_a_new_customer_page()"
@@ -158,10 +194,14 @@
             "keyword": "Then "
           },
           {
+            "output": [
+              "Customer info is entered"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 6963000000,
+              "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "user enters customer info",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_enters_customer_info()"
@@ -169,10 +209,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Save button clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1284000000,
+              "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "click on save button",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_save_button()"
@@ -180,10 +224,14 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "Message visible is  The new customer has been added successfully"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 140000000,
+              "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "user can view confirm message \"The new customer has been added successfully\"",
             "match": {
               "arguments": [
@@ -199,22 +247,28 @@
         ],
         "tags": [
           {
+            "name": "@Customer"
+          },
+          {
             "name": "@sanity"
           }
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "Below are the common steps for each scenario",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User launch Chrome Browser",
             "match": {
               "location": "stepDefinitions.LoginstepDefs.user_launch_Chrome_Browser()"
@@ -222,10 +276,14 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "Navigated to URL https://admin-demo.nopcommerce.com/login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1525000000,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
             "match": {
               "arguments": [
@@ -240,9 +298,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 165000000,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters Email as \"admin@yourstore.com\" and password \"admin\"",
             "match": {
               "arguments": [
@@ -261,9 +320,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3702000000,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "click login",
             "match": {
               "location": "stepDefinitions.LoginstepDefs.click_login()"
@@ -271,10 +331,14 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "We are inside DashBoard page"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 5008000000,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User can view Dashboard page",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_can_view_Dashboard_page()"
@@ -282,10 +346,14 @@
             "keyword": "Then "
           },
           {
+            "output": [
+              "Customer manu is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 5052000000,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User click on customers Menu",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_click_on_customers_Menu()"
@@ -293,10 +361,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Customer manu item is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1062000000,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_customers_menu_item()"
@@ -306,28 +378,36 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T08:41:37.917Z",
+        "start_timestamp": "2020-11-10T19:34:08.218Z",
         "before": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 3411000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.setup()"
+              "location": "stepDefinitions.LoginstepDefs.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 23,
+        "line": 24,
         "name": "Search customer by EmailID",
         "description": "",
         "id": "customer;search-customer-by-emailid",
         "after": [
           {
+            "output": [
+              "Browser is closed"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 74000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.tearDown()"
+              "location": "stepDefinitions.LoginstepDefs.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -335,10 +415,14 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "Customer manu item is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 902000000,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_customers_menu_item()"
@@ -347,9 +431,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 210000000,
+              "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "Enter customer email",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.enter_customer_email()"
@@ -358,9 +443,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46000000,
+              "status": "passed"
             },
-            "line": 26,
+            "line": 27,
             "name": "click on search button",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_search_button()"
@@ -368,10 +454,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Email found in search table"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 611000000,
+              "status": "passed"
             },
-            "line": 27,
+            "line": 28,
             "name": "user should found Email in the search table",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_should_found_Email_in_the_search_table()"
@@ -381,22 +471,29 @@
         ],
         "tags": [
           {
+            "name": "@Customer"
+          },
+          {
             "name": "@regression"
           }
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "Below are the common steps for each scenario",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User launch Chrome Browser",
             "match": {
               "location": "stepDefinitions.LoginstepDefs.user_launch_Chrome_Browser()"
@@ -404,10 +501,14 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "Navigated to URL https://admin-demo.nopcommerce.com/login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 758000000,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
             "match": {
               "arguments": [
@@ -422,9 +523,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 159000000,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters Email as \"admin@yourstore.com\" and password \"admin\"",
             "match": {
               "arguments": [
@@ -443,9 +545,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3066000000,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "click login",
             "match": {
               "location": "stepDefinitions.LoginstepDefs.click_login()"
@@ -453,10 +556,14 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "We are inside DashBoard page"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 5010000000,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User can view Dashboard page",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_can_view_Dashboard_page()"
@@ -464,10 +571,14 @@
             "keyword": "Then "
           },
           {
+            "output": [
+              "Customer manu is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 5052000000,
+              "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User click on customers Menu",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_click_on_customers_Menu()"
@@ -475,10 +586,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Customer manu item is clicked"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1089000000,
+              "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "click on customers menu item",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_customers_menu_item()"
@@ -488,28 +603,36 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T08:41:37.921Z",
+        "start_timestamp": "2020-11-10T19:34:29.992Z",
         "before": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 3274000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.setup()"
+              "location": "stepDefinitions.LoginstepDefs.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
-        "line": 30,
+        "line": 31,
         "name": "Search customer by Name",
         "description": "",
         "id": "customer;search-customer-by-name",
         "after": [
           {
+            "output": [
+              "Browser is closed"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 45000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.tearDown()"
+              "location": "stepDefinitions.LoginstepDefs.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -517,10 +640,14 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "First name entered"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 98000000,
+              "status": "passed"
             },
-            "line": 31,
+            "line": 32,
             "name": "Enter customer FirstName",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.enter_customer_FirstName()"
@@ -529,9 +656,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95000000,
+              "status": "passed"
             },
-            "line": 32,
+            "line": 33,
             "name": "Enter customer LastName",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.enter_customer_LastName()"
@@ -540,9 +668,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 139000000,
+              "status": "passed"
             },
-            "line": 33,
+            "line": 34,
             "name": "click on search button",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.click_on_search_button()"
@@ -550,10 +679,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Name found in search table"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 658000000,
+              "status": "passed"
             },
-            "line": 34,
+            "line": 35,
             "name": "user should found Name in the search table",
             "match": {
               "location": "stepDefinitions.AddCustomerstepdef.user_should_found_Name_in_the_search_table()"
@@ -562,6 +695,9 @@
           }
         ],
         "tags": [
+          {
+            "name": "@Customer"
+          },
           {
             "name": "@regression"
           }
@@ -573,20 +709,33 @@
     "id": "customer",
     "keyword": "Feature",
     "uri": "file:src/test/java/Features/Customer.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@Customer",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   },
   {
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-10T08:41:37.926Z",
+        "start_timestamp": "2020-11-10T19:34:49.443Z",
         "before": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 3206000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.setup()"
+              "location": "stepDefinitions.LoginstepDefs.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -596,11 +745,15 @@
         "id": "login;successful-login-with-valid-credentials",
         "after": [
           {
+            "output": [
+              "Browser is closed"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 43000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.tearDown()"
+              "location": "stepDefinitions.LoginstepDefs.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -608,8 +761,11 @@
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 5,
             "name": "User launch Chrome Browser",
@@ -619,8 +775,12 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "Navigated to URL https://admin-demo.nopcommerce.com/login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1412000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
@@ -637,7 +797,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 162000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "user enters Email as \"admin@yourstore.com\" and password \"admin\"",
@@ -658,7 +819,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5406000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "click login",
@@ -668,8 +830,12 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "Page title is Dashboard / nopCommerce administration"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 27000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "page title should be \"Dashboard / nopCommerce administration\"",
@@ -685,8 +851,12 @@
             "keyword": "Then "
           },
           {
+            "output": [
+              "Successfully Logged out"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 4052000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "user clicks on Logout link",
@@ -696,8 +866,12 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Page title is Your store. Login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 33000000,
+              "status": "passed"
             },
             "line": 11,
             "name": "page title should be \"Your store. Login\"",
@@ -720,14 +894,18 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T08:41:37.930Z",
+        "start_timestamp": "2020-11-10T19:35:03.789Z",
         "before": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 3191000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.setup()"
+              "location": "stepDefinitions.LoginstepDefs.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -737,11 +915,15 @@
         "id": "login;login-data-driven;;2",
         "after": [
           {
+            "output": [
+              "Browser is closed"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 73000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.tearDown()"
+              "location": "stepDefinitions.LoginstepDefs.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -749,8 +931,11 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 15,
             "name": "User launch Chrome Browser",
@@ -760,8 +945,12 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "Navigated to URL https://admin-demo.nopcommerce.com/login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1419000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
@@ -778,7 +967,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 159000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "user enters Email as \"admin@yourstore.com\" and password \"admin\"",
@@ -799,7 +989,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4404000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "click login",
@@ -809,8 +1000,12 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "Page title is Dashboard / nopCommerce administration"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 25000000,
+              "status": "passed"
             },
             "line": 19,
             "name": "page title should be \"Dashboard / nopCommerce administration\"",
@@ -826,8 +1021,12 @@
             "keyword": "Then "
           },
           {
+            "output": [
+              "Successfully Logged out"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 4046000000,
+              "status": "passed"
             },
             "line": 20,
             "name": "user clicks on Logout link",
@@ -837,8 +1036,12 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Page title is Your store. Login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 26000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "page title should be \"Your store. Login\"",
@@ -861,14 +1064,18 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-10T08:41:37.935Z",
+        "start_timestamp": "2020-11-10T19:35:17.138Z",
         "before": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 3203000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.setup()"
+              "location": "stepDefinitions.LoginstepDefs.setup(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -878,11 +1085,22 @@
         "id": "login;login-data-driven;;3",
         "after": [
           {
+            "embeddings": [
+              {
+                "data": "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AAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAAAAxhBCAQAAAADGEEIBAAAAAMYQQgEAAP5/+3UsAAAAADDI33oWu8oiADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYgOkU0AAAAqElEQVQSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsJBQAAICNhAIAALCRUAAAADYSCgAAwEZCAQAA2EgoAAAAGwkFAABgI6EAAABsApFbA6PyQrrhAAAAAElFTkSuQmCC",
+                "mime_type": "image/png",
+                "name": "Snapshot"
+              }
+            ],
+            "output": [
+              "Browser is closed"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 476000000,
+              "status": "passed"
             },
             "match": {
-              "location": "stepDefinitions.LoginstepDefs.tearDown()"
+              "location": "stepDefinitions.LoginstepDefs.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -890,8 +1108,11 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "Chrome driver invoked "
+            ],
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 15,
             "name": "User launch Chrome Browser",
@@ -901,8 +1122,12 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "Navigated to URL https://admin-demo.nopcommerce.com/login"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1535000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
@@ -919,7 +1144,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 160000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "user enters Email as \"admin1@yourstore.com\" and password \"admin12\"",
@@ -940,7 +1166,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1120000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "click login",
@@ -951,7 +1178,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinitions.LoginstepDefs.page_title_should_be(LoginstepDefs.java:115)\r\n\tat ✽.page title should be \"Dashboard / nopCommerce administration\"(file:///D:/JAVA_Projects/nopCommerceV001_Cucumber/src/test/java/Features/Login.feature:19)\r\n",
+              "duration": 2017000000,
+              "status": "failed"
             },
             "line": 19,
             "name": "page title should be \"Dashboard / nopCommerce administration\"",

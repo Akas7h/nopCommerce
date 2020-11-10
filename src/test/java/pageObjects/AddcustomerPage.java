@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import io.cucumber.java.Scenario;
 import utilities.PageTitle_util;
 
 //import utilities.PageTitle_util;
@@ -16,10 +17,12 @@ import utilities.PageTitle_util;
 public class AddcustomerPage{
 
 public WebDriver ldriver;
-	
+//Scenario scr;
+//public Scenario scn;	
 	public AddcustomerPage(WebDriver rdriver)
 	{
 		ldriver=rdriver;
+		//this.scr = s;
 		PageFactory.initElements(rdriver, this);
 	}
 	
@@ -75,6 +78,7 @@ public WebDriver ldriver;
 	public void setPassword(String password)
 	{
 		ldriver.findElement(txtPassword).sendKeys(password);
+		//scn.write("Password entered is "+password);
 	}
 	
 	
